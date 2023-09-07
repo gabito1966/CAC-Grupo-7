@@ -1,0 +1,46 @@
+@import "reset.css";
+@import "variables.css";
+
+
+html{
+    font-family: var(--base-font);
+    font-size: 62.5%;
+    color: var(--dark-solid);
+}
+
+a {
+    text-decoration: none;
+    font-size: 2em;
+    color: inherit;
+    font-family: inherit;
+}
+header,
+footer {
+    font-family: var(--alternative-font);
+    color: var(--light-font-solid);
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+p {
+    font-size: 1.8em;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav {
+    background-color: var(--dark-bg-solid);
+}
+
+.banner{
+    background-image: url(../img/funkos-banner.webp);
+    height: 250px;
+    
+}
+footer {
+    background-color: var(--dark-bg-solid);
+    padding: 10px;
+}

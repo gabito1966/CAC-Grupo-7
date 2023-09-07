@@ -32,7 +32,7 @@
     --font-large: 2.4em;
     --font-medium: 1.8em;
     --font-small: 1.6em;
-    --font-xsmall: 1.2em;
+    --font-xsmall: 1.4em;
 
     /*Spacings*/
     --spacings-128: 12.8rem;
@@ -40,7 +40,7 @@
     --spacings-36: 3.6rem;
     --spacings-28: 2.8rem;
     --spacings-24: 2.4rem;
-    --spacings-20: 2.0rem;
+    --spacings-20: 2rem;
     --spacings-16: 1.6rem;
     --spacings-12: 1.2rem;
     --spacings-8: 0.8rem;
@@ -52,47 +52,4 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-
-html{
-    font-family: var(--base-font);
-    font-size: 62.5%;
-    color: var(--dark-solid);
-}
-
-a {
-    text-decoration: none;
-    font-size: 2em;
-    color: inherit;
-    font-family: inherit;
-}
-header,
-footer {
-    font-family: var(--alternative-font);
-    color: var(--light-font-solid);
-}
-
-ul, ol {
-    list-style-type: none;
-}
-
-p {
-    font-size: 1.8em;
-}
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-nav {
-    background-color: var(--dark-bg-solid);
-}
-
-.banner{
-    background-image: url(../img/funkos-banner.webp);
-    height: 250px;
-    
-}
-footer {
-    background-color: var(--dark-bg-solid);
 }
