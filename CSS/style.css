@@ -331,6 +331,19 @@ header {
     font-weight: 700;
 }
 
+/*FOOTER*/
+.footer {
+    background-color: var(--dark-bg-solid);
+    padding: var(--spacings-68);
+}
+
+.footer__copy{
+    margin-top: var(--spacings-36);
+    text-align: center;
+
+}
+
+/*Animations */
 @keyframes fade {
     0% {
         opacity: 0;
@@ -341,6 +354,3 @@ header {
     }
 }
 
-footer {
-    background-color: var(--dark-bg-solid);
-}
