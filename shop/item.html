@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Funkoshop</title>
+    <title>Item | Funkoshop</title>
     <link rel="stylesheet" href="../CSS/style.css">
 </head>
 <body>
@@ -11,13 +11,14 @@
     <header>
         <nav class="navbar container">
             <picture class="navbar__logo">
-                <a href="./index.html">
+                <a href="../index.html">
                     <img src="../img/branding/logo_light_horizontal.svg" alt="Isologotipo de la marca Funkoshop">
                 </a>
             </picture>
             <ul class="navbar__menu">
                 <li class="navbar__item with-submenu">
-                    <a class="navbar__link with-icon" href="./shop/shop.html">SHOP <iconify-icon icon="ion:chevron-down"></iconify-icon></a>
+                    <a class="navbar__link with-icon" href="./shop.html">SHOP <iconify-icon
+                            icon="ion:chevron-down"></iconify-icon></a>
                     <ul class="submenu">
                         <li class="submenu__item">
                             <a href="" class="submenu__link">Funkos</a>
@@ -37,63 +38,45 @@
                     <a class="navbar__link" href="./admin/login.html">LOGIN</a>
                 </li>
                 <li class="navbar__item">
-                    <a class="navbar__cart" href="./pages/cart.html">
-                        <img src="./img/icons/cart-icon.svg" alt="Icono del carro de compras">
+                    <a class="navbar__cart" href="../pages/cart.html">
+                        <img src="../img/icons/cart-icon.svg" alt="Icono del carro de compras">
                     </a>
                 </li>
             </ul>
         </nav>
     </header>
     <!--Final Headers -->
-    <!--Inicion Herro -->
-    <section class="hero">
-        <article class="hero__content container">
-            <h3 class="hero__title">Nuevos Ingresos</h3>
-            <p class="hero__text">Descubri el proximo Funko Pop de tu coleccion</p>
-            <a class="hero__link" href="./shop/shop.html">SHOP</a>
-        </article>
-    </section>
+
+    <!--Inicio Main-->
     <main class="main-container">
         <section class="collection container">
             <article class="collection__content">
-                <h3 class="collection__title">Star Wars & The Mandalorian</h3>
-                <p class="collection__text">Disfruta de una saga que sigue agregando personajes a su colección.</p>
-                <a class="collection__link" href="./shop/shop.html">VER COLECCION</a>
+                <p class="card-item__licence">STAR WARS</p>
+                <h4 class="card-item__name">BABY YODA BLUEBALL</h4>
+                <p class="card-item__precio">$ 1799,99</p>
+                <form action="text" label="quantity">
+                    <input type="number" width="60px">
+                    <button type="button" class="button__add">Agregar al carrito</button>
+                </form>
+                <p class="card-item__promo"><u>ver metodos de pago:</u> 3 CUOTAS SIN INTERÉS</p>
             </article>
             <picture class="collection__cover">
-                <img src="./img/star-wars/baby-yoda-1.webp" alt="Muñeco de baby yoda">
+                <img src="../img/star-wars/baby-yoda-1.webp" alt="Muñeco de baby yoda">
             </picture>
-        </section>
-        <section class="collection container">
-            <article class="collection__content">
-                <h3 class="collection__title">POKEMON INDIGO</h3>
-                <p class="collection__text">Atrapa todos los que puedas y disfruta de una colección llena de amigos.</p>
-                <a class="collection__link" href="./shop/shop.html">VER COLECCION</a>
-            </article>
-            <picture class="collection__cover">
-                <img src="./img/pokemon/vulpix-1.webp" alt="Muñeco de vulpix">
-            </picture>
-        </section>
-        <section class="collection container">
-            <article class="collection__content">
-                <h3 class="collection__title">HARRY POTTER</h3>
-                <p class="collection__text">Revive los recuerdos de una saga llena de magia y encanto.</p>
-                <a class="collection__link" href="./shop/shop.html">VER COLECCION</a>
-            </article>
-            <picture class="collection__cover">
-                <img src="./img/harry-potter/snape-patronus-1.webp" alt="Muñeco Snape Patronus">
-            </picture>
-        </section>
+        </section>  
+        
         <section class="slider container">
-            <h2 class="slider__title">ULTIMOS LANZAMIENTOS</h2>
+            <h2 class="slider__title">PRODUCTOS RELACIONADOS</h2>
             <ul class="slider__items">
                 <li class="slider__item">
                     <article class="card-item">
                         <a class="card-item__link" href="">
                             <picture class="card-item__cover">
                                 <span class="card-item__tag">Nuevo</span>
-                                <img class="card-item__img--front" src="./img/star-wars/trooper-1.webp" alt="Figura coleccionable Funko de un Stormtrooper">
-                                <img class="card-item__img--back" src="./img/star-wars/trooper-box.webp" alt="Figura coleccionable Funko de un Stormtrooper en caja">
+                                <img class="card-item__img--front" src="../img/star-wars/trooper-1.webp"
+                                    alt="Figura coleccionable Funko de un Stormtrooper">
+                                <img class="card-item__img--back" src="../img/star-wars/trooper-box.webp"
+                                    alt="Figura coleccionable Funko de un Stormtrooper en caja">
                             </picture>
                             <div class="card-item__content">
                                 <p class="card-item__licence">STAR WARS</p>
@@ -109,8 +92,10 @@
                         <a class="card-item__link" href="">
                             <picture class="card-item__cover">
                                 <span class="card-item__tag">Nuevo</span>
-                                <img class="card-item__img--front" src="./img/pokemon/pidgeotto-1.webp" alt="Figura coleccionable Funko de Pidgeotto">
-                                <img class="card-item__img--back" src="./img/pokemon/pidgeotto-box.webp" alt="Figura coleccionable Funko de Pidgeotto en caja">
+                                <img class="card-item__img--front" src="../img/pokemon/pidgeotto-1.webp"
+                                    alt="Figura coleccionable Funko de Pidgeotto">
+                                <img class="card-item__img--back" src="../img/pokemon/pidgeotto-box.webp"
+                                    alt="Figura coleccionable Funko de Pidgeotto en caja">
                             </picture>
                             <div class="card-item__content">
                                 <p class="card-item__licence">POKEMON</p>
@@ -126,8 +111,10 @@
                         <a class="card-item__link" href="">
                             <picture class="card-item__cover">
                                 <span class="card-item__tag">Nuevo</span>
-                                <img class="card-item__img--front"src="./img/harry-potter/luna-1.webp" alt="Figura coleccionable Funko de Luna Lovegood">
-                                <img class="card-item__img--back" src="./img/harry-potter/luna-box.webp" alt="Figura coleccionable Funko de Luna Lovegood en caja">
+                                <img class="card-item__img--front" src="../img/harry-potter/luna-1.webp"
+                                    alt="Figura coleccionable Funko de Luna Lovegood">
+                                <img class="card-item__img--back" src="../img/harry-potter/luna-box.webp"
+                                    alt="Figura coleccionable Funko de Luna Lovegood en caja">
                             </picture>
                             <div class="card-item__content">
                                 <p class="card-item__licence">HARRY POTTER</p>
@@ -141,6 +128,9 @@
             </ul>
         </section>
     </main>
+    <!--Fin Main-->
+
+    <!-- Inicio Footer-->
     <footer class="footer">
         <nav class="navbar container">
             <ul class="navbar__item">
@@ -157,12 +147,13 @@
                     <a class="navbar__link" href="./pages/contact.html">CONTACTO</a>
                 </li>
             </ul>
-        <figure>
-            <img src="./img/branding/isotype.svg" alt="Isotipo">
-        </figure>
-    </nav>
+            <figure>
+                <img src="./img/branding/isotype.svg" alt="Isotipo">
+            </figure>
+        </nav>
         <p class="footer__copy">All rights reserved 2023 - Funkoshop &copy;</p>
     </footer>
-    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <!-- Fin footer-->
+    
 </body>
 </html>
