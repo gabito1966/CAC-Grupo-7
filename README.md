@@ -12,4 +12,4 @@ Este es el proyecto integrador del Grupo 7 para el curso de NodeJS del programa 
     - Grid
 - JavaScript
 
-__Autores:__ Gabriel Garcia/
+__Autores:__ Gabriel Garcia/ Sofia Landaveri/
