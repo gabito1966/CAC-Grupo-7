@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cart | Funkoshop</title>
+    
     <link rel="stylesheet" href="../CSS/index.css">
 </head>
 <body>
@@ -45,6 +46,61 @@
         </nav>
     </header>
 
+    <!-- START SECTION SHOPPING CART -->
+    <main class="container">
+        <section class="shopping-cart container">
+            <div class="shopping-cart__title ">
+                <h2 class="shopping-cart__title-title">CARRITO DE COMPRAS</h2>
+                <hr>
+            </div>
+            <div class="shopping-cart__list">
+                <div class="shopping-cart__header">
+                    <h3 class="shopping-cart__subtitle">DETALLE DE PRODUCTO</h3>
+                </div>
+                <div class="shopping-cart__header">
+                    <h3 class="shopping-cart__subtitle">CANTIDAD</h3>
+                </div>
+                <div class="shopping-cart__header">
+                    <h3 class="shopping-cart__subtitle">TOTAL</h3>
+                </div>
+            </div>
+                <!-- ? START SHOPPING CART ITEMS -->
+                <div class="shopping-cart__items shoppingCartItemsContainer">
+                </div>
+                <!-- ? END SHOPPING CART ITEMS -->
+    
+                <!-- START TOTAL -->
+        </section>
+        <section class="shopping-cart">        
+            <div class="shopping-cart__items">
+                <h2 class="shopping-cart__items-title">RESUMEN</h2>
+                <hr>
+            </div>
+                <!-- END TOTAL -->
+    
+                <!-- START MODAL COMPRA -->
+                <div class="modal fade" id="comprarModal" tabindex="-1" aria-labelledby="comprarModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="comprarModalLabel">Gracias por su compra</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Pronto recibirá su pedido</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END MODAL COMPRA -->
+        </section>
+    </main>
 
 
     <footer class="footer">

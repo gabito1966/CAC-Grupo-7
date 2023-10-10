@@ -30,6 +30,7 @@
 @import url('./pages/login.css');
 @import url('./pages/register.css');
 @import url('./pages/shop.css');
+@import url('./pages/cart.css');
 
 :root {
     /* palette*/
@@ -112,6 +113,11 @@ img {
 
 .container {
     max-width: 1200px;
+    margin: 0 auto;
+}
+
+.subcontainer {
+    max-width: 960px;
     margin: 0 auto;
 }
 
