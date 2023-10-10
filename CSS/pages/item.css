@@ -40,12 +40,20 @@
     padding: 5px;
 }
 
+.item__submit:hover {
+    cursor: pointer;
+}
+
 .item__quantity {
     background-color: var(--dark-bg-solid);
     color: var(--light-font-solid);
     padding: 6px;
     height: 40px;
     width: 30px;
+}
+
+.item__quantity:hover{
+    cursor: pointer;
 }
 
 .item__promo {
@@ -67,6 +75,10 @@
 .item__img {
     max-width: 800px;
     margin: 0 auto;
+}
+
+.item__img:hover {
+    cursor: pointer;
 }
 
 .item__cover {
