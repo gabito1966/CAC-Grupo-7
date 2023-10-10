@@ -1,7 +1,40 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin: var(--spacings-36);
+}
+
+.grid-form {
+    max-width: 240px;
+}
+
+.grid{
+    max-width: 960px;
+}
+
 .form {
     display: flex;
-    padding: var(--spacings-20);
-    margin: auto;
+    margin: var(--spacings-20);
+    font-family: var(--base-font);
+     font-weight: 500;
+}
+
+.form h3 {
+    font-size: var(--font-large);
+    padding: var(--spacings-8);
+}
+
+.form h4 {
+    font-size: var(--font-xsmall);
+}
+
+.form__filter {
+    margin: var(--spacings-12);
+}
+
+.form__input {
+    display: grid;
+    justify-items: center;
 
 }
 
