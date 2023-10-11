@@ -1,10 +1,70 @@
-.form {
-    display: flex;
-    padding: var(--spacings-20);
-    margin: auto;
-
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
 }
 
+.grid-form {
+    max-width: 240px;
+}
+
+.grid{
+    max-width: 960px;
+}
+
+.form {
+    display: flex;
+    margin: var(--spacings-8) 0;
+    font-family: var(--base-font);
+    font-weight: 500;
+}
+
+.form h3 {
+    font-size: var(--font-large);
+    padding: var(--spacings-8) 0;
+}
+
+.form__filter h3 {
+    font-size: var(--font-large);
+    padding: var(--spacings-8) 0;
+}
+
+.form__rectangle-24 {
+    width: 243px;
+    height: 44px;
+    border: 2px solid var(--dark-900);
+    border-radius: 6px;
+}
+
+.form__rectangle-29 {
+    width: 243px;
+    height: 44px;
+    border: 2px solid var(--dark-900);
+    border-radius: 6px;
+    color: var(--dark-500);
+    font-size: var(--font-medium);
+}
+
+.form h4 {
+    font-size: var(--font-xsmall);
+}
+
+.form__filter {
+    margin: var(--spacings-12);
+    font-size: var(--font-medium);
+    gap: var(--spacings-12) 0;
+}
+
+.form__input {
+    display: grid;
+    justify-items: center;
+}
+
+..form__rectangle {
+    width: 13px;
+    height: 24px;
+    border: 2px solid var(--dark-900);
+    border-radius: 6px;
+}
 .button__add{
     background-color: var(--primary-solid);
     color: var(--light-font-solid);
